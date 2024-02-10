@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Questionnaire -->
+
+    <string name="questionnaire_title">What do you want to Recycle?</string>
+
+    <string name="questionnaire_label_plastic">Plastic</string>
+    <string name="questionnaire_label_clothes">Clothes</string>
+    <string name="questionnaire_label_electronics">Electronics</string>
+    <string name="questionnaire_label_food">Food</string>
+    <string name="questionnaire_label_paper">Paper</string>
+    <string name="questionnaire_label_other">Other</string>
+    <string name="questionnaire_label_glass">Glass</string>
+    <string name="questionnaire_label_aluminium">Aluminium</string>
+    <string name="questionnaire_label_black_plastic">Black Plastic</string>
+    <string name="questionnaire_label_ppe">PPE &amp; Masks</string>
+
+    <!--List of item in activities (reordering applies in UI)-->
+    <string-array name="questionnaire_labels">
+        <item>plastic</item>
+        <item>clothes</item>
+        <item>electronics</item>
+        <item>food</item>
+        <item>paper</item>
+        <item>glass</item>
+        <item>aluminium</item>
+        <item>black_plastic</item>
+        <item>ppe</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".FilterActivity">
+
+    <!--
+        this layout is used to toggle waypoint visibility
+        the functionality of this layout is not yet finished -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/filter_waypoints"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/title"
+            tools:layout_conversion_absoluteHeight="73dp"
+            tools:layout_conversion_absoluteWidth="411dp" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40000000"
+            android:fadeScrollbars="true"
+            android:fadingEdge="horizontal|vertical"
+            android:requiresFadingEdge="horizontal|vertical"
+            tools:layout_conversion_absoluteHeight="586dp"
+            tools:layout_conversion_absoluteWidth="411dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/bus"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Campus Shuttle"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/tumbler"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Tumbler Share"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/print"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="3D Printing Service"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/garbage"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Garbage and Recycling"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/charger"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Charging Station"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/print4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="4D Printing Service"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/cycleStand"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Bicycle Stand"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/soap"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Soap Refill Service"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/water"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Water Bottle Fill Station"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/expressStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Bottle Return"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="fill"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="toggleAll"
+        app:cardBackgroundColor="@color/panelbackground"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="16dp"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Display All Services"
+                android:textAlignment="center"
+                android:textColor="@color/title"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

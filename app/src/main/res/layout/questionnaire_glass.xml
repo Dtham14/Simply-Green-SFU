@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".QuestionnaireActivity">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Glass Goes In the Blue Bin"
+        android:textColor="@color/title"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_view"
+        android:layout_margin="20dp"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/body_view"
+            android:layout_width="wrap_content"
+            android:layout_height="162dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Bottles, jars (lids on)
+food jars, tubs (lids on), clear food containers/clamshells (e.g. from berries, mixed greens)
+disposable plates, cups, detergent, soap, shampoo bottles (lids/sprayers/pumps on)
+and clear CD/DVD cases go into blue bin or the express go station.
+"
+            android:textColor="@color/body"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/bluebin" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Locate on Map"
+            android:onClick="openExpressStation"
+            android:backgroundTint="@color/panelbackground"
+            />
+    </GridLayout>
+
+</RelativeLayout>

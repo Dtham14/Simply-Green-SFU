@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Main -->
+    <string name="main_title">SIMPLY GREEN SFU</string>
+    <string name="main_map_label">SFU BURNABY</string>
+    <string name="main_questionnaire_label">Disposal Questionnaire</string>
+    <string name="app_name" translatable="false">SimplyGreenSFUApp</string>
+    <string name="splash_title">SIMPLY GREEN</string>
+    <string name="splash_subtitle">Spreading Awareness</string>
+    <string name="center_map">Center Map</string>
+    <string name="filter_waypoints">Filter Services</string>
+    <string name="search">Search</string>
+
+</resources>

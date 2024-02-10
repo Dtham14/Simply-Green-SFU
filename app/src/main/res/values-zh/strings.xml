@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">SIMPLY GREEN SFU</string>
+    <string name="main_map_label">SFU BURNABY 地图</string>
+    <string name="main_questionnaire_label">物品处理问卷</string>
+    <string name="splash_subtitle">传播环保意识</string>
+    <string name="questionnaire_title">你想要回收什么？</string>
+    <string name="questionnaire_label_plastic">塑料</string>
+    <string name="questionnaire_label_clothes">衣物</string>
+    <string name="questionnaire_label_electronics">电子产品</string>
+    <string name="questionnaire_label_food">食物</string>
+    <string name="questionnaire_label_paper">纸制品</string>
+    <string name="questionnaire_label_other">其他</string>
+    <string name="questionnaire_label_glass">玻璃制品</string>
+    <string name="questionnaire_label_aluminium">铝制品</string>
+    <string name="questionnaire_label_black_plastic">黑类塑料</string>
+    <string name="questionnaire_label_ppe">医用口罩</string>
+    <string name="waypoint_title_bus">公交站与垃圾桶</string>
+    <string name="waypoint_title_charger">ChargePoint 电力车充电桩</string>
+    <string name="waypoint_title_cycleStand">自行车存放处</string>
+    <string name="waypoint_title_expressStation">Express&amp;Go 瓶子回收站</string>
+    <string name="waypoint_title_garbage">垃圾桶</string>
+    <string name="waypoint_title_print">SFU 3D 打印服务</string>
+    <string name="waypoint_title_print4">SFU 4D 实验室</string>
+    <string name="waypoint_title_soap">居民清洁品补给站</string>
+    <string name="waypoint_title_tumbler">Tumbler Share 循环利用咖啡杯</string>
+    <string name="waypoint_title_water">饮用水站</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Waypoints -->
+    <string-array name="waypoint_types">
+        <item>bus</item>
+        <item>charger</item>
+        <item>cycleStand</item>
+        <item>expressStation</item>
+        <item>garbage</item>
+        <item>print</item>
+        <item>print4</item>
+        <item>soap</item>
+        <item>tumbler</item>
+        <item>water</item>
+    </string-array>
+
+    <string name="waypoint_title_bus">Bus Stop and Trash can</string>
+    <string name="waypoint_title_charger">ChargePoint Charging Station for electric vehicles</string>
+    <string name="waypoint_title_cycleStand">Bike Parking Station</string>
+    <string name="waypoint_title_expressStation">Express&amp;Go Bottle Return Station</string>
+    <string name="waypoint_title_garbage">Garbage Bins</string>
+    <string name="waypoint_title_print">SFU 3D Printing Services and Equipment Rentals</string>
+    <string name="waypoint_title_print4">SFU 4D Lab</string>
+    <string name="waypoint_title_soap">"Residence Soap/ Shower Gel/ Sanitizer refill station"</string>
+    <string name="waypoint_title_tumbler">Tumbler Share Reusable Coffee Cup Initiative at Renaissance Coffee</string>
+    <string name="waypoint_title_water">Water Fill Station</string>
+
+    <string-array name="waypoint_coordinates_bus">
+        <item>49.276476879886786, -122.91586935930654</item>
+        <item>49.278575530617054, -122.91287254207106</item>
+        <item>49.2799863166989, -122.92000390492898</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_charger">
+        <item>49.27782433410494, -122.91228145079572</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_cycleStand">
+        <item>49.28010782141652, -122.92768581367923</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_expressStation">
+        <item>49.27777099812078, -122.91245204676959</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_garbage">
+        <item>49.280145248939704, -122.92974036457606</item>
+        <item>49.277865, -122.915243</item>
+        <item>49.27901319569078, -122.91917104888094</item>
+        <item>49.27835138829663, -122.91754663350986</item>
+        <item>49.27953754312013, -122.91884150954003</item>
+        <item>49.27953754312212, -122.92212886569328</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_print">
+        <item>49.2798928320619, -122.91879244831065</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_print4">
+        <item>49.277055105743, -122.91674166423424</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_soap">
+        <item>49.28017081309873, -122.92669607853932</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_tumbler">
+        <item>49.279436594792834, -122.91563459044565</item>
+    </string-array>
+
+    <string-array name="waypoint_coordinates_water">
+        <item>49.27857584667107, -122.91870078349078</item>
+    </string-array>
+</resources>
